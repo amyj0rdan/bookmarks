@@ -27,15 +27,4 @@ I want to be able to see a list of my bookmarks
 
 ### Domain model
 
-|  Noun  |  Verb  |
-|  ----  |  ----  |
-|  User  |        |
-| Bookmark |      |
-| Bookmark List | Show  |
-
-**Class diagram**
-
-|  BookmarkList  |
-|  ----  |
-|  new  |
-| show |
+![userstory1](https://user-images.githubusercontent.com/45539085/54928186-7359a480-4f0b-11e9-9785-bdf71c4ba9e5.png)
