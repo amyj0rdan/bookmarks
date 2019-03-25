@@ -1,6 +1,23 @@
-## Bookmark Challenge
+# Bookmark Challenge
 
 This is a week 4 Makers Academy challenge.
+
+## Getting started
+
+`git clone https://github.com/amyj0rdan/bookmarks`     
+`gem install bundle`    
+`bundle`    
+
+## Usage
+
+- Set up psql, if not already
+- Create a psql database using `CREATE DATABASE bookmark_manager;`
+- Connect to the database using the pqsl command `\c bookmark_manager;`
+- Run the queries saved in /db/migrations
+
+## Tests
+
+`rspec`
 
 ## Requirements
 
