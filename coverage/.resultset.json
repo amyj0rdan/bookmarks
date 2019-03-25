@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Dropbox/week_4/bookmark-challenge/spec/features/home_page_spec.rb": [
+      "/Users/micosmin/Desktop/Makers/Projects/week4/bookmarks_amy/bookmarks/spec/features/home_page_spec.rb": [
         1,
         1,
         1,
@@ -9,15 +9,38 @@
         null,
         null
       ],
-      "/Users/student/Dropbox/week_4/bookmark-challenge/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/micosmin/Desktop/Makers/Projects/week4/bookmarks_amy/bookmarks/spec/features/viewing_bookmarks_spec.rb": [
         1,
         1,
         1,
         1,
         null,
         null
+      ],
+      "/Users/micosmin/Desktop/Makers/Projects/week4/bookmarks_amy/bookmarks/spec/unit/bookmark_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        2,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/micosmin/Desktop/Makers/Projects/week4/bookmarks_amy/bookmarks/lib/bookmark.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1553526837
+    "timestamp": 1553527221
   }
 }
