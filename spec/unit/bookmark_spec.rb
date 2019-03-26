@@ -18,14 +18,14 @@ describe Bookmark do
     end
   end
 
-  # describe '#create' do
-  #   it 'creates a new bookmark' do
-  #     connection = PG.connect(dbname: 'bookmark_manager_test')
-  #     Bookmark.create('http://makers.tech')
-  #
-  #     bookmarks = Bookmark.all
-  #
-  #     expect(bookmarks).to include("http://makers.tech")
-  #   end
-  # end
+  describe '#create' do
+    it 'creates a new bookmark' do
+      connection = PG.connect(dbname: 'bookmark_manager_test')
+      Bookmark.create('http://makers.tech')
+
+      bookmarks = Bookmark.all
+
+      expect(bookmarks).to include("http://makers.tech")
+    end
+  end
 end
