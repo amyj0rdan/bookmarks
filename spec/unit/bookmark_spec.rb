@@ -23,9 +23,7 @@ describe Bookmark do
       connection = PG.connect(dbname: 'bookmark_manager_test')
       Bookmark.create('http://makers.tech')
 
-      bookmarks = Bookmark.all
-
-      expect(bookmarks).to include("http://makers.tech")
+      expect(Bookmark.all).to include("http://makers.tech")
     end
   end
 end
