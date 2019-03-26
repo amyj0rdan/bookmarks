@@ -18,6 +18,10 @@ This is a week 4 Makers Academy challenge.
 ## Tests
 
 `rspec`
+- You will also need to set up a bookmark manager test database:
+- Create a psql database using `CREATE DATABASE bookmark_manager_test;`
+- Connect to the database using the pqsl command `\c bookmark_manager_test;`
+- Run the queries saved in /db/migrations
 
 ## Requirements
 
