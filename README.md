@@ -49,3 +49,13 @@ I want to be able to see a list of my bookmarks
 ### Domain model
 
 ![userstory1](https://user-images.githubusercontent.com/45539085/54928186-7359a480-4f0b-11e9-9785-bdf71c4ba9e5.png)
+
+## User story 2
+
+- Add new bookmarks
+
+```
+As a user of the web,
+So that I can keep track of new web pages I'm interested in,
+I want to be able to add a new bookmark to my bookmark list
+```
