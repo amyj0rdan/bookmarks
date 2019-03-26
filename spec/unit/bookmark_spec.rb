@@ -9,9 +9,8 @@ describe Bookmark do
     connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.google.com');")
     connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.destroyallsoftware.com');")
 
-
     bookmarks = Bookmark.all
-    
+
     expect(bookmarks).to include("http://www.makersacademy.com")
     expect(bookmarks).to include("http://www.google.com")
     expect(bookmarks).to include("http://www.destroyallsoftware.com")
