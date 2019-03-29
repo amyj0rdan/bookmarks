@@ -59,3 +59,13 @@ As a user of the web,
 So that I can keep track of new web pages I'm interested in,
 I want to be able to add a new bookmark to my bookmark list
 ```
+
+## User story 3
+
+- Delete bookmarks
+
+```
+As a user of the web,
+So that I can get rid of web pages I'm no longer interested in,
+I want to be able to delete a bookmark from my bookmark list
+```
